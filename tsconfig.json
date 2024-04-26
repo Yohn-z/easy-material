@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "easy-material": ["src"],
+      "easy-material/*": ["src/*", "*"]
+    }
+  },
+  "include": [
+    ".dumirc.ts",
+    "src/**/*",
+    "typings.d.ts",
+    "./**/*.d.ts",
+    "./**/*.ts",
+    "./**/*.tsx"
+  ],
+  "exclude": ["node_modules", "lib", "es", "dist", "typings", "**/__test__", "test", "docs", "tests"],
+}
