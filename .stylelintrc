@@ -1,3 +1,4 @@
 {
-  "extends": "@umijs/lint/dist/config/stylelint"
+  "extends": "@umijs/lint/dist/config/stylelint",
+  "ignoreFiles": ["**/node_modules/**", "**/dist/**", "**/docs/**"]
 }
